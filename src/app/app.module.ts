@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './services/app-routing.module';
 import { AppComponent } from './app.component';
+import { EventsHomeComponent } from './pages/events-home/events-home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EventsHomeComponent
   ],
   imports: [
     BrowserModule,
