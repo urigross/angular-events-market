@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Post } from 'src/app/models/post.model';
+import { HttpService } from 'src/app/services/http-service';
+
 
 @Component({
   selector: 'app-events-home',
@@ -6,10 +9,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./events-home.component.scss']
 })
 export class EventsHomeComponent implements OnInit {
+  public posts: Post[] = [];
 
-  constructor() { }
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
+    this.getPosts();
   }
+  getPosts(): void{
+    this.httpService.getPosts()
+    //return the top 5 heroes
+      .subscribe(posts => this.posts = posts);
+  }
+
 
 }
