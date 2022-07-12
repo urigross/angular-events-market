@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './services/app-routing.module';
 import { AppComponent } from './app.component';
 import { EventsHomeComponent } from './pages/events-home/events-home.component';
@@ -12,6 +12,7 @@ import { EventsHomeComponent } from './pages/events-home/events-home.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
