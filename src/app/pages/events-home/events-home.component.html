@@ -1,2 +1,1 @@
-<p>events-home works!</p>
-<div *ngIf="posts">{{posts | json}}</div>
+<app-events-list *ngIf="posts" [posts]="posts"></app-events-list>
