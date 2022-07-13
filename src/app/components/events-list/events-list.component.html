@@ -1,1 +1,6 @@
-<pre>{{posts |json}}</pre>
+<!-- <pre>{{posts |json}}</pre> -->
+<!-- <div class="events-list" *ngFor="let post of posts; trackBy trackByFn"> -->
+<div class="events-list" *ngFor="let post of posts">
+    <app-event-preview [post]="post"></app-event-preview>
+
+</div>

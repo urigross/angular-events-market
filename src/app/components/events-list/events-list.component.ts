@@ -13,4 +13,8 @@ export class EventsListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // trackByFn(idx: any, post: Post) {
+  //   return post? post._id: undefined;
+  // }
+
 }
