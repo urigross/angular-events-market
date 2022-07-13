@@ -1,0 +1,25 @@
+<div class="post-preview" dir="rtl">
+    <!-- <div class="url-preview-container">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/d7734d4/2147483647/strip/true/crop/5812x3875+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbe%2F2c%2F87e80f174ed1b31f8e30367fadd6%2Fgettyimages-1370404755.jpg"
+            alt="superball show">
+    </div> -->
+    <div class="post-details-container">
+        <p>{{post.details}}</p>
+    </div>
+    <div class="post-date-container">
+        <div class="day-container">
+            <p>{{post.day}}</p>
+        </div>
+        <div class="date-container">
+            <p>{{post.date}}</p>
+        </div>
+    </div>
+    <div class="hour-container">
+        <p>{{post.startHour}}</p>
+        <p *ngIf="post.endHour!==''">-</p>
+        <p>{{post.endHour}}</p>
+    </div>
+    <div class="external-link-container">
+        <a href="{{post.url}}" target="_blank">לפרטים נוספים</a>
+    </div>
+</div>
