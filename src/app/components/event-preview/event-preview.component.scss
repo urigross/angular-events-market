@@ -1,35 +1,68 @@
+p {
+    // height: 30px;
+    line-height: 30px;
+    margin-block-end: 10px;
+}
+
 .post-preview {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    height: 30px;
-    line-height: 30px;
+    align-items: flex-start;
+    gap: 45px;
+    border: 1px rgb(214, 214, 214) solid;
+    .date-links-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .post-date-container {
+            // width: 200px;
+            min-width: 150px;
+            .day-container {
+                display: inline-block;
+                margin-inline-end: 20px;
+                min-width: 50px;
+                p {}
+            }
+            .date-container {
+                display: inline-block;
+                min-width: 70px;
+                p {}
+            }
+        }
+        .hour-container {
+            min-width: 100px;
+            p {
+                display: inline-block;
+            }
+        }
+        .external-link-container {
+            min-width: 85px;
+            a {
+                display: inline-block;
+            }
+        }
+    }
     .post-details-container {
-        width: 550px;
-    }
-    .post-date-container {
-        // width: 200px;
-        .day-container {
-            display: inline-block;
-            margin-inline-end: 20px;
-            width: 50px;
-            p {}
-        }
-        .date-container {
-            display: inline-block;
-            width: 70px;
-            p {}
-        }
-    }
-    .hour-container {
-        width: 100px;
+        // margin: 0 auto;
         p {
-            display: inline-block;
+            text-align: center;
         }
     }
-    .external-link-container {
-        a {
-            display: inline-block;
+}
+@media (max-width: 768px) {
+    .post-preview{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 0;
+        .date-links-container{
+            display: flex;
+            align-items: baseline;
         }
     }
+
+    
 }
