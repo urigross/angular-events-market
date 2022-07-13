@@ -61,6 +61,12 @@ p {
         .date-links-container{
             display: flex;
             align-items: baseline;
+            .post-date-container{
+                min-width: 0;
+                .day-container{
+                    margin-inline-end: 0;
+                }
+            }
         }
     }
 
