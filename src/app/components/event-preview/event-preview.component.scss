@@ -1,0 +1,35 @@
+.post-preview {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    line-height: 30px;
+    .post-details-container {
+        width: 550px;
+    }
+    .post-date-container {
+        // width: 200px;
+        .day-container {
+            display: inline-block;
+            margin-inline-end: 20px;
+            width: 50px;
+            p {}
+        }
+        .date-container {
+            display: inline-block;
+            width: 70px;
+            p {}
+        }
+    }
+    .hour-container {
+        width: 100px;
+        p {
+            display: inline-block;
+        }
+    }
+    .external-link-container {
+        a {
+            display: inline-block;
+        }
+    }
+}
