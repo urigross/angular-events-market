@@ -1,10 +1,12 @@
 p {
     // height: 30px;
     line-height: 30px;
-    margin-block-end: 10px;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
 }
 
 .post-preview {
+    font-family: 'Rubik Regular', Courier, monospace;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -13,7 +15,7 @@ p {
     .date-links-container {
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         .post-date-container {
             // width: 200px;
             min-width: 150px;
@@ -21,12 +23,10 @@ p {
                 display: inline-block;
                 margin-inline-end: 20px;
                 min-width: 50px;
-                p {}
             }
             .date-container {
                 display: inline-block;
                 min-width: 70px;
-                p {}
             }
         }
         .hour-container {
@@ -39,36 +39,54 @@ p {
             min-width: 85px;
             a {
                 display: inline-block;
+                font-family: 'Rubik Glitch', Courier, monospace;
+                background-color: gray;
+                border-radius: 50px;
+                text-decoration: none;
+                width: 70px;
+                text-align: center;
+                line-height: 22px;
+                color: ghostwhite;
+                margin-block-end: 5px;
+                margin-block-start: 5px;
             }
         }
     }
-    .post-details-container {
+    .details-container {
         // margin: 0 auto;
         p {
             text-align: center;
         }
     }
 }
+
 @media (max-width: 768px) {
-    .post-preview{
+    .post-preview {
         display: flex;
         margin: 0;
         padding: 0;
         flex-direction: column;
         align-items: center;
-        
         gap: 0;
-        .date-links-container{
+        .date-links-container {
             display: flex;
             align-items: baseline;
-            .post-date-container{
+            .post-date-container {
                 min-width: 0;
-                .day-container{
+                .day-container {
                     margin-inline-end: 0;
+                    min-width: 40px;
+                }
+                .date-container {
+                    min-width: 50px;
                 }
             }
+            .external-link-container {
+                min-width: 50px;
+            }
+        }
+        .details-container {
+            max-width: 260px;
         }
     }
-
-    
 }
