@@ -5,11 +5,11 @@
                 <p>{{summerEvent.day}}</p>
             </div>
             <div class="date-container">
-                <p>{{summerEvent.date}}</p>
+                <p>{{summerEvent.dateWithTime | date: 'M/d/yy'}}</p>
             </div>
         </div>
         <div class="hour-container">
-            <p>{{summerEvent.startHour}}</p>
+            <p>{{summerEvent.dateWithTime | date: 'H:mm'}}</p>
             <p *ngIf="summerEvent.endHour!==''">-</p>
             <p>{{summerEvent.endHour}}</p>
         </div>

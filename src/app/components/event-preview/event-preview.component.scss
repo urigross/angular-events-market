@@ -12,6 +12,7 @@ p {
     align-items: flex-start;
     gap: 45px;
     border: 1px rgb(214, 214, 214) solid;
+    padding-right: 15px;
     .date-links-container {
         display: flex;
         justify-content: flex-start;
@@ -30,7 +31,9 @@ p {
             }
         }
         .hour-container {
-            min-width: 100px;
+            min-width: 145px;
+            display: flex;
+            justify-content: center;
             p {
                 display: inline-block;
             }
@@ -75,11 +78,14 @@ p {
                 min-width: 0;
                 .day-container {
                     margin-inline-end: 0;
-                    min-width: 40px;
+                    min-width: 43px;
                 }
                 .date-container {
                     min-width: 50px;
                 }
+            }
+            .hour-container{
+                min-width: 110px;
             }
             .external-link-container {
                 min-width: 50px;
