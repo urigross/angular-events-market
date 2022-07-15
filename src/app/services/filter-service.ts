@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Post } from '../models/post.model';
-import * as _ from 'lodash';
 import { SummerEvent } from '../models/summerEvent.model';
 
 @Injectable({
@@ -8,7 +6,7 @@ import { SummerEvent } from '../models/summerEvent.model';
 })
 export class FilterService {
   getFutureSummerEvents(summerEvents:SummerEvent[]):SummerEvent[]{
-    var filteredSummerEvents: SummerEvent[] = _.cloneDeep(summerEvents);
+    var filteredSummerEvents: SummerEvent[] = structuredClone(summerEvents);
     filteredSummerEvents = filteredSummerEvents.filter(summerEvent=>summerEvent.dateWithTime > new Date());
     return filteredSummerEvents;
   }
