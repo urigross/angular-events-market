@@ -1,23 +1,23 @@
-<div class="post-preview" dir="rtl">
+<div class="summerEvent-preview" dir="rtl">
     <div class="date-links-container">
-        <div class="post-date-container">
+        <div class="summerEvent-date-container">
             <div class="day-container">
-                <p>{{post.day}}</p>
+                <p>{{summerEvent.day}}</p>
             </div>
             <div class="date-container">
-                <p>{{post.date}}</p>
+                <p>{{summerEvent.date}}</p>
             </div>
         </div>
         <div class="hour-container">
-            <p>{{post.startHour}}</p>
-            <p *ngIf="post.endHour!==''">-</p>
-            <p>{{post.endHour}}</p>
+            <p>{{summerEvent.startHour}}</p>
+            <p *ngIf="summerEvent.endHour!==''">-</p>
+            <p>{{summerEvent.endHour}}</p>
         </div>
         <div class="external-link-container">
-            <a href="{{post.url}}" target="_blank">לפרטים</a>
+            <a href="{{summerEvent.url}}" target="_blank">לפרטים</a>
         </div>
     </div>
     <div class="details-container">
-        <p>{{post.details}}</p>
+        <p>{{summerEvent.details}}</p>
     </div>
 </div>
