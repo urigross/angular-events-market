@@ -5,7 +5,7 @@ p {
     margin-block-start: 5px;
 }
 
-.post-preview {
+.summerEvent-preview {
     font-family: 'Rubik Regular', Courier, monospace;
     display: flex;
     justify-content: flex-start;
@@ -16,7 +16,7 @@ p {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        .post-date-container {
+        .summerEvent-date-container {
             // width: 200px;
             min-width: 150px;
             .day-container {
@@ -61,7 +61,7 @@ p {
 }
 
 @media (max-width: 768px) {
-    .post-preview {
+    .summerEvent-preview {
         display: flex;
         margin: 0;
         padding: 0;
@@ -71,7 +71,7 @@ p {
         .date-links-container {
             display: flex;
             align-items: baseline;
-            .post-date-container {
+            .summerEvent-date-container {
                 min-width: 0;
                 .day-container {
                     margin-inline-end: 0;

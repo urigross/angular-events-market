@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Post } from 'src/app/models/post.model';
+import { SummerEvent } from 'src/app/models/summerEvent.model';
 import { HttpService } from 'src/app/services/http-service';
 
 
@@ -9,17 +10,21 @@ import { HttpService } from 'src/app/services/http-service';
   styleUrls: ['./events-home.component.scss']
 })
 export class EventsHomeComponent implements OnInit {
-  public posts: Post[] = [];
+  public summerEvents: SummerEvent[] = [];
 
   constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
-    this.getPosts();
+    this.getSummerEvents();
+    
   }
-  getPosts(): void{
+  getSummerEvents(): void{
     this.httpService.getPosts()
-    //return the top 5 heroes
-      .subscribe(posts => this.posts = posts);
+    .subscribe(posts => {
+      this.summerEvents = this.httpService.getSummerEvents(posts);
+      this.summerEvents = this.httpService.getDateSortedPosts(this.summerEvents);      // Sort them by date.
+      console.log(this.httpService.getSummerEvents(this.summerEvents));
+    });
   }
 
 

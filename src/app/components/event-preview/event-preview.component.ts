@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Post } from 'src/app/models/post.model';
+import { SummerEvent } from 'src/app/models/summerEvent.model';
 
 @Component({
   selector: 'app-event-preview',
@@ -7,7 +8,7 @@ import { Post } from 'src/app/models/post.model';
   styleUrls: ['./event-preview.component.scss']
 })
 export class EventPreviewComponent implements OnInit {
-  @Input() post!:Post;
+  @Input() summerEvent!:SummerEvent;
 
   constructor() { }
 
