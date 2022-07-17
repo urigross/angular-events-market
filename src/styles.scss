@@ -1,31 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+
+body {
     box-sizing: border-box;
 }
 
-body, p,h1,h2,h3,h4,h5,h6{
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
-    
-}
-.max-width {
-    max-width: 1300px;
-     margin: 0 auto;
 }
 
-a{
+.max-width {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
     text-decoration: none;
     cursor: pointer;
 }
 
-a:visited{
-    color: unset;
-}
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}   
 
 @font-face {
     font-family: 'Rubik Glitch';
     src: url('./assets/fonts/RubikGlitch-Regular.ttf');
 }
+
 @font-face {
     font-family: 'Rubik Regular';
     src: url('./assets/fonts/Rubik-VariableFont_wght.ttf');
