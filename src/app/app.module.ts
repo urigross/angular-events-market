@@ -9,6 +9,7 @@ import { EventPreviewComponent } from './components/event-preview/event-preview.
 import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './pages/about/about.component';
+import { DonateComponent } from './pages/donate/donate.component';
 
 
 
@@ -20,6 +21,7 @@ import { AboutComponent } from './pages/about/about.component';
     EventPreviewComponent,
     HeaderComponent,
     AboutComponent,
+    DonateComponent,
     
   ],
   imports: [
