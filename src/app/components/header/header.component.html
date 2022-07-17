@@ -15,6 +15,7 @@
             </div>
         </div>
         <ul [ngClass]="mobileMenuOn?'active':''">
+            <fa-icon [icon]="faTimes" *ngIf="mobileMenuOn" (click)="onCloseMenu()"></fa-icon>
             <li>
                 <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="onCloseMenu()">לכל האירועים</a>
             </li>
@@ -31,11 +32,9 @@
                 <a routerLink="/about" routerLinkActive="active" (click)="onCloseMenu()">מה דעתכם?</a>
             </li>
         </ul>
+        
         <div class="menu-btn">
-            <fa-icon [icon]="faTimes" *ngIf="mobileMenuOn; else closeMenuBtn" (click)="onCloseMenu()"></fa-icon>
-            <ng-template #closeMenuBtn>
-                <fa-icon [icon]="faBars" (click)="onOpenMenu()"></fa-icon>
-            </ng-template>
+            <fa-icon *ngIf="!mobileMenuOn;" [icon]="faBars" (click)="onOpenMenu()"></fa-icon>
         </div>
     </div>
 </nav>

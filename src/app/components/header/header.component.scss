@@ -106,13 +106,14 @@ nav {
 @media (max-width: 947px) {
     nav {
         .nav-container {
-            ul {
+                ul {
                 position: fixed;
                 height: 100vh;
                 width: 100%;
-                left: -100%;
+                left: -111%;
                 top: 0;
-                background: #111;
+                margin-top:0px;
+                background: white;
                 text-align: center;
                 padding-top: 80px;
                 transition: all 0.3s ease;
@@ -130,6 +131,7 @@ nav {
                 z-index: 1;
             }
             .menu-btn {
+                margin-top: 35px;
                 display: block;
                 z-index: 999;
             }
