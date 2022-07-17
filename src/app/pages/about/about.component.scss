@@ -1,0 +1,15 @@
+.about-container{
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: right;
+    max-width: 700px;
+    font-family:'Rubik Regular', Courier, monospace;
+    line-height: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .about-container{
+        font-size: 16px;
+        max-width: 275px;
+    }    
+}
