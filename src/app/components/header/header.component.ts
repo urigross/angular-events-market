@@ -7,11 +7,16 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+export class HeaderComponent {
+  faBars = faBars;
+  faTimes = faTimes;
+  mobileMenuOn= false;
+// Because the dual layout (mobile + desktop) of menu - Couldn't use toggleMenu
+  onOpenMenu(){
+    this.mobileMenuOn = true;
+  }
+  onCloseMenu(){
+    this.mobileMenuOn = false;
   }
 
 }

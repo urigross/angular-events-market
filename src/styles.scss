@@ -14,6 +14,15 @@ body, p, h1,h2,h3,h4,h5,h6,h7,h8{
      margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited{
+    color: unset;
+}
+
 @font-face {
     font-family: 'Rubik Glitch';
     src: url('./assets/fonts/RubikGlitch-Regular.ttf');
@@ -21,4 +30,9 @@ body, p, h1,h2,h3,h4,h5,h6,h7,h8{
 @font-face {
     font-family: 'Rubik Regular';
     src: url('./assets/fonts/Rubik-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Ephesis Regular';
+    src: url('./assets//fonts/Ephesis-Regular.ttf');
 }
