@@ -8,6 +8,7 @@ import { EventsListComponent } from './components/events-list/events-list.compon
 import { EventPreviewComponent } from './components/event-preview/event-preview.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './pages/about/about.component';
 
 
 
@@ -18,6 +19,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     EventsListComponent,
     EventPreviewComponent,
     HeaderComponent,
+    AboutComponent,
     
   ],
   imports: [
