@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-header',
