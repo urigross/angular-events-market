@@ -5,18 +5,16 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 30px;
+        margin-bottom: 11px;
         .logo-stripes-container {
             width: 100%;
             display: grid;
             grid-template-columns: 9fr 1fr 175px 1fr 9fr;
             align-items: center;
-            .stripe-container{
-                hr{
-
+            .stripe-container {
+                hr {
                     border-top: 1px solid red;
                 }
-
             }
             .logo-container {
                 position: relative;
@@ -42,13 +40,17 @@ nav {
         }
         ul {
             padding: 0;
+            margin: 0;
+            letter-spacing: -0.5px;
+            // margin-bottom: 0 0 10px 0;
             li {
                 display: inline-block;
+                margin: 0 25px;
                 a {
                     display: block;
-                    font-size: 18px;
+                    font-size: 30px;
                     font-weight: 500;
-                    margin-inline-start: 25px;
+                    // margin-inline-start: 25px;
                     padding: .75rem 0;
                     transition: .3s ease-in-out;
                 }
@@ -107,13 +109,13 @@ nav {
 @media (max-width: 947px) {
     nav {
         .nav-container {
-                ul {
+            ul {
                 position: fixed;
                 height: 100vh;
                 width: 100%;
                 left: -111%;
                 top: 0;
-                margin-top:0px;
+                margin-top: 0px;
                 background: white;
                 text-align: center;
                 padding-top: 80px;
@@ -124,6 +126,7 @@ nav {
                         display: inline-block;
                         margin: 20px 0;
                         font-size: 25px;
+                        letter-spacing: 4px;
                     }
                 }
             }
@@ -132,10 +135,18 @@ nav {
                 z-index: 1;
             }
             .menu-btn {
-                margin-top: 35px;
+                margin-top: 15px;
                 display: block;
                 z-index: 999;
             }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    nav {
+        .nav-container {
+            margin-bottom: 11px;
         }
     }
 }
