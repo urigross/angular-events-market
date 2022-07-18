@@ -14,7 +14,6 @@
                 <hr>
             </div>
         </div>
-        <app-header-opening></app-header-opening>
         <ul [ngClass]="mobileMenuOn?'active':''">
             <fa-icon [icon]="faTimes" *ngIf="mobileMenuOn" (click)="onCloseMenu()"></fa-icon>
             <li>
