@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './pages/about/about.component';
 import { DonateComponent } from './pages/donate/donate.component';
 import { HeaderOpeningComponent } from './components/header-components/header-opening/header-opening.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -24,6 +25,7 @@ import { HeaderOpeningComponent } from './components/header-components/header-op
     AboutComponent,
     DonateComponent,
     HeaderOpeningComponent,
+    FooterComponent,
     
   ],
   imports: [
