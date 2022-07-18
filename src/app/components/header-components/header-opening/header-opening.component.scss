@@ -1,0 +1,19 @@
+.header-opening-container {
+    max-width: 696px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    p{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .header-opening-container {
+        margin-bottom: 0;
+        max-width: 280px;
+        p {
+            text-align: center;
+        }
+    }
+}

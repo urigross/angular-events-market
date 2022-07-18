@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { EventsHomeComponent } from './pages/events-home/events-home.component';
 import { EventsListComponent } from './components/events-list/events-list.component';
 import { EventPreviewComponent } from './components/event-preview/event-preview.component';
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from './components/header-components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './pages/about/about.component';
 import { DonateComponent } from './pages/donate/donate.component';
+import { HeaderOpeningComponent } from './components/header-components/header-opening/header-opening.component';
 
 
 
@@ -22,6 +23,7 @@ import { DonateComponent } from './pages/donate/donate.component';
     HeaderComponent,
     AboutComponent,
     DonateComponent,
+    HeaderOpeningComponent,
     
   ],
   imports: [
