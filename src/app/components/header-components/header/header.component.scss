@@ -146,6 +146,19 @@ nav {
     nav {
         .nav-container {
             margin-bottom: 11px;
+            align-items: flex-start;
+            ul {
+                .close-menu-btn-container {
+                    margin-block-start: 3px;
+                    display: flex;
+                    .close-menu-btn {
+                        margin-right: 18px;
+                    }
+                }
+            }
+            .menu-btn {
+                margin-right: 15px;
+            }
         }
     }
 }

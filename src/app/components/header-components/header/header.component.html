@@ -15,9 +15,11 @@
             </div>
         </div>
         <ul [ngClass]="mobileMenuOn?'active':''">
-            <fa-icon [icon]="faTimes" *ngIf="mobileMenuOn" (click)="onCloseMenu()"></fa-icon>
+            <div *ngIf="mobileMenuOn" class="close-menu-btn-container">
+                <fa-icon  class="close-menu-btn fa-lg"[icon]="faTimes" (click)="onCloseMenu()"></fa-icon>
+            </div>
             <li>
-                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="onCloseMenu()">לכל האירועים</a>
+                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="onCloseMenu()">רשימת אירועים</a>
             </li>
             <li>
                 <a routerLink="/about" routerLinkActive="active" (click)="onCloseMenu()">הסיפור שלנו</a>
