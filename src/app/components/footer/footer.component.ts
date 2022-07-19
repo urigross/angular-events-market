@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApplicationStateService } from 'src/app/services/application-state.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+    isMobileMode: boolean = false; 
+
+  constructor(private applicationStateService: ApplicationStateService) { }
 
   ngOnInit(): void {
+    this.isMobileMode = this.applicationStateService.getIsMobileResolution();
+
   }
 
 }
+
