@@ -5,53 +5,75 @@ p {
 .summerEvent-preview {
     font-family: 'Rubik Regular', Courier, monospace;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 45px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
     border: 1px rgb(214, 214, 214) solid;
-    padding-right: 15px;
     .first-block-container {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        gap: 7px;
         .date-container {
             display: inline-block;
             min-width: 70px;
         }
         .day-container {
             display: inline-block;
-            margin-inline-end: 20px;
+            width: 34px;
             min-width: 50px;
+            p {
+                text-align: start;
+            }
         }
         .hour-container {
-            min-width: 145px;
+            min-width: 40px;
             display: flex;
             justify-content: center;
             p {
                 display: inline-block;
             }
         }
-        .city-container {}
-    }
-    .external-link-container {
-        min-width: 85px;
-        a {
-            display: inline-block;
-            font-family: 'Rubik ', Courier, monospace;
-            background-color: gray;
-            border-radius: 50px;
-            text-decoration: none;
-            width: 70px;
-            text-align: center;
-            line-height: 22px;
-            color: ghostwhite;
-            margin-block-end: 5px;
-            margin-block-start: 5px;
+        .city-container{
+            min-width: 100px;
         }
     }
-    .details-container {
-        p {
-            text-align: center;
+    .desktop-view-container {
+        .external-link-container {
+            min-width: 70px;
+            a {
+                display: inline-block;
+                font-family: 'Rubik ', Courier, monospace;
+                background-color: gray;
+                border-radius: 50px;
+                text-decoration: none;
+                width: 70px;
+                text-align: center;
+                line-height: 22px;
+                color: ghostwhite;
+                margin-block-end: 5px;
+                margin-block-start: 5px;
+            }
+        }
+        .details-container {
+            max-width: 832px;
+            p {
+                text-align: start;
+            }
+        }
+    }
+}
+
+//desktop only
+@media(min-width: 768px) {
+    .summerEvent-preview {
+        .desktop-view-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 997px;
+            align-items: center;
+            gap: 10px;
         }
     }
 }
@@ -61,25 +83,23 @@ p {
         margin: 0;
         padding: 0;
         flex-direction: column;
-        align-items: center;
         gap: 0;
         .first-block-container {
             display: flex;
             align-items: baseline;
             justify-content: center;
             min-width: 280px;
+            gap: 0px;
             .date-container {
                 min-width: 70px;
             }
             .day-container {
                 margin-inline-end: 0;
                 min-width: 43px;
-                p{
+                width: auto;
+                p {
                     text-align: center;
                 }
-            }
-            .hour-container {
-                min-width: 40px;
             }
             .city-container {
                 min-width: 100px;
@@ -88,12 +108,14 @@ p {
         }
         .details-container {
             max-width: 280px;
-            p{
+            p {
                 text-align: center;
             }
         }
         .external-link-container {
             min-width: 50px;
+            display: flex;
+            justify-content: center;
         }
     }
 }
