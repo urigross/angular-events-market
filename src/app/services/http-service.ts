@@ -31,14 +31,14 @@ export class HttpService {
   }
   getSummerEvents(posts:Post[]):SummerEvent[]{
     var eventsToReturn: SummerEvent[]=[];
-    posts.forEach(({date,day,startHour,endHour, details, url}) => {
+    posts.forEach(({date, city,day,startHour,activityType,category, details, url}) => {
       var dateStr = `${date}, ${startHour}`;
       var summerEvent: SummerEvent = {
         dateWithTime:new Date(dateStr),
-        date,
         day,
-        startHour,
-        endHour,
+        city,
+        activityType,
+        category,
         details,
         url
       }
