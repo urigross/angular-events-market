@@ -1,7 +1,5 @@
 p {
     line-height: 30px;
-    margin-block-end: 5px;
-    margin-block-start: 5px;
 }
 
 .summerEvent-preview {
@@ -12,21 +10,18 @@ p {
     gap: 45px;
     border: 1px rgb(214, 214, 214) solid;
     padding-right: 15px;
-    .date-links-container {
+    .first-block-container {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        .summerEvent-date-container {
-            min-width: 150px;
-            .day-container {
-                display: inline-block;
-                margin-inline-end: 20px;
-                min-width: 50px;
-            }
-            .date-container {
-                display: inline-block;
-                min-width: 70px;
-            }
+        .date-container {
+            display: inline-block;
+            min-width: 70px;
+        }
+        .day-container {
+            display: inline-block;
+            margin-inline-end: 20px;
+            min-width: 50px;
         }
         .hour-container {
             min-width: 145px;
@@ -36,21 +31,22 @@ p {
                 display: inline-block;
             }
         }
-        .external-link-container {
-            min-width: 85px;
-            a {
-                display: inline-block;
-                font-family: 'Rubik ', Courier, monospace;
-                background-color: gray;
-                border-radius: 50px;
-                text-decoration: none;
-                width: 70px;
-                text-align: center;
-                line-height: 22px;
-                color: ghostwhite;
-                margin-block-end: 5px;
-                margin-block-start: 5px;
-            }
+        .city-container {}
+    }
+    .external-link-container {
+        min-width: 85px;
+        a {
+            display: inline-block;
+            font-family: 'Rubik ', Courier, monospace;
+            background-color: gray;
+            border-radius: 50px;
+            text-decoration: none;
+            width: 70px;
+            text-align: center;
+            line-height: 22px;
+            color: ghostwhite;
+            margin-block-end: 5px;
+            margin-block-start: 5px;
         }
     }
     .details-container {
@@ -62,34 +58,42 @@ p {
 
 @media (max-width: 768px) {
     .summerEvent-preview {
-        display: flex;
         margin: 0;
         padding: 0;
         flex-direction: column;
         align-items: center;
         gap: 0;
-        .date-links-container {
+        .first-block-container {
             display: flex;
             align-items: baseline;
-            .summerEvent-date-container {
-                min-width: 0;
-                .day-container {
-                    margin-inline-end: 0;
-                    min-width: 43px;
-                }
-                .date-container {
-                    min-width: 50px;
+            justify-content: center;
+            min-width: 280px;
+            .date-container {
+                min-width: 70px;
+            }
+            .day-container {
+                margin-inline-end: 0;
+                min-width: 43px;
+                p{
+                    text-align: center;
                 }
             }
             .hour-container {
-                min-width: 110px;
+                min-width: 40px;
             }
-            .external-link-container {
-                min-width: 50px;
+            .city-container {
+                min-width: 100px;
+                text-align: center;
             }
         }
         .details-container {
             max-width: 280px;
+            p{
+                text-align: center;
+            }
+        }
+        .external-link-container {
+            min-width: 50px;
         }
     }
 }

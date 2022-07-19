@@ -1,23 +1,22 @@
 <div class="summerEvent-preview max-width" dir="rtl">
-    <div class="date-links-container">
-        <div class="summerEvent-date-container">
-            <div class="day-container">
-                <p>{{summerEvent.day}}</p>
-            </div>
-            <div class="date-container">
-                <p>{{summerEvent.dateWithTime | date: 'd/M/yy'}}</p>
-            </div>
+    <div class="first-block-container">
+        <div class="date-container">
+            <p>{{summerEvent.dateWithTime | date: 'd/M/yy'}}</p>
+        </div>
+        <div class="day-container">
+            <p>{{summerEvent.day}}</p>
         </div>
         <div class="hour-container">
             <p>{{summerEvent.dateWithTime | date: 'H:mm'}}</p>
-            <p *ngIf="summerEvent.endHour!==''">-</p>
-            <p>{{summerEvent.endHour}}</p>
         </div>
-        <div class="external-link-container">
-            <a href="{{summerEvent.url}}" target="_blank">לפרטים</a>
+        <div class="city-container">
+            <p>{{summerEvent.city}}</p>
         </div>
     </div>
     <div class="details-container">
         <p>{{summerEvent.details}}</p>
+    </div>
+    <div class="external-link-container">
+        <a href="{{summerEvent.url}}" target="_blank">לפרטים</a>
     </div>
 </div>

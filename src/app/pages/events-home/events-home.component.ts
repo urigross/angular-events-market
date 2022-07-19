@@ -25,7 +25,6 @@ export class EventsHomeComponent implements OnInit {
       this.summerEvents = this.httpService.getSummerEvents(posts);
       this.summerEvents = this.filterService.getFutureSummerEvents(this.summerEvents);
       this.summerEvents = this.httpService.getDateSortedPosts(this.summerEvents);      // Sort them by date.
-      console.log(this.httpService.getSummerEvents(this.summerEvents));
     });
   }
 

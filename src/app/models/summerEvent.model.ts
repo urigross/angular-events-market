@@ -1,9 +1,9 @@
 export interface SummerEvent {
     dateWithTime: Date
-    date: string,
     day: string,
-    startHour: string,
-    endHour: string,
+    city: string,
+    activityType: string,
+    category: string,
     details: string,
     url: string
 }
