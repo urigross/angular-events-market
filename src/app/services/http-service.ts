@@ -13,8 +13,8 @@ export class HttpService {
 
   constructor(private http: HttpClient) { }
 
-  // postsUrl = 'https://62cc2deea080052930a6d29b.mockapi.io/api/events/events';
-  postsUrl ='https://62d021b51cc14f8c08850b9c.mockapi.io/events';
+  postsUrl ='https://api.npoint.io/1a46d5f836f7d9744e15';
+
 
   getPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.postsUrl)
