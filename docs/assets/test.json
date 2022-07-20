@@ -1,115 +1,5 @@
 [
     {
-        "date": "2022-07-19",
-        "city": "כפר סבא",
-        "day": "שלישי",
-        "startHour": "17:00",
-        "activityType": "הפעלות ילדים",
-        "category": "ילדים",
-        "details": "הפנינג מים בירוקה - תותח קצף, מתחמי פעילות מים, מתחם ג'אגלינג ועוד. בחורשת הבנים שכונת 80",
-        "url": "https://www.kfar-saba.muni.il/events/1625/"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "חולון",
-        "day": "שלישי",
-        "startHour": "19:30",
-        "activityType": "סרט",
-        "category": "ילדים",
-        "details": "קולנוע פתוח תחת כיפת השמיים במתחם הספורט בריזה. הסרט קרקס החיות (מדובב)",
-        "url": "https://www.holon.muni.il/Lists/List2/CustomDispForm.aspx?ID=2529"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "ראשון לציון",
-        "day": "שלישי",
-        "startHour": "17:30",
-        "activityType": "הפעלות ילדים",
-        "category": "ילדים",
-        "details": "מסיבות גן בגנים ציבוריים - מופעים, מתנפחים, סדנאות ועוד. רשימת הגינות בפרטים הנוספים ",
-        "url": "https://www.rishonlezion.muni.il/Lists/List3/CustomDispForm.aspx?ID=3042"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "רמת השרון",
-        "day": "שלישי",
-        "startHour": "17:00",
-        "activityType": "הפעלות ילדים",
-        "category": "ילדים",
-        "details": "הפנינג מוזיקלי לכל המשפחה עם תחנות הפעלה מוסיקליות בגן אהרון נווה גן",
-        "url": "https://online.fliphtml5.com/glhma/zfqm/?fbclid=IwAR0ZmITFvoA5a8M8Y3FxKnWT5qRq0kbWtJx7BtX9YIAKsEHe3HsEKj254io#p=20"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "רעננה",
-        "day": "שלישי",
-        "startHour": "18:00",
-        "activityType": "סרט",
-        "category": "ילדים",
-        "details": "משאית הסרטים של רעננה: הסרט ריה והדרקון האחרון בגינת הרדוף",
-        "url": "https://tickets.raanana.muni.il/%D7%A1%D7%93%D7%A8%D7%AA_%D7%A1%D7%A8%D7%98%D7%99%D7%9D_%D7%A2%D7%9C_%D7%92%D7%9C%D7%92%D7%9C%D7%99%D7%9D_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%95%D7%AA_"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "נתניה",
-        "day": "שלישי",
-        "startHour": "18:00",
-        "activityType": "הופעה",
-        "category": "משפחה",
-        "details": "מופע שקיעה טיפקס בחוף פולג במסגרת אירועי המכביה (יש להירשם מראש כניסה חופשית)",
-        "url": "https://www.netanya.muni.il/City/Events/Pages/tipex190722.aspx"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "תל אביב",
-        "day": "שלישי",
-        "startHour": "20:00",
-        "activityType": "סרט",
-        "category": "מבוגרים",
-        "details": "סרטי דוקאביב תחת כיפת השמיים בפארק התחנה - חסד מופלא: אריתה פרנקלין. קול אחד שהוא הכל",
-        "url": "https://www.facebook.com/events/564266732013276/564266745346608?ref=newsfeed"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "תל אביב",
-        "day": "שלישי",
-        "startHour": "20:30",
-        "activityType": "הופעה",
-        "category": "מבוגרים",
-        "details": "הופעות קיץ בשוק הפשפשים - נועה דרזנר (פלמנקו)",
-        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=33808"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "תל אביב",
-        "day": "שלישי",
-        "startHour": "18:30",
-        "activityType": "מופע מוזיקלי",
-        "category": "משפחה",
-        "details": "מופע תיאטרון מוזיקלי לכל המשפחה באמפי הטריבונה בנמל תל אביב - ווימבה סימבה שירת האריות",
-        "url": "https://www.namal.co.il/events/%d7%9e%d7%95%d7%a4%d7%a2%d7%99-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%9c%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c-%d7%94%d7%9e%d7%a9%d7%a4%d7%97%d7%94-%d7%91%d7%aa/"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "בת ים",
-        "day": "שלישי",
-        "startHour": "20:30",
-        "activityType": "סרט",
-        "category": "מבוגרים",
-        "details": "סרט נע - הקרנת הסרט אפס ביחסי אנוש ומפגש עם היוצרת, על הדשא שסמוך למוזיאון לאומנות עכשוית",
-        "url": "https://www.coing.co/BatYam_Summer/62331"
-    },
-    {
-        "date": "2022-07-19",
-        "city": "מודיעין",
-        "day": "שלישי",
-        "startHour": "20:00",
-        "activityType": "סרט",
-        "category": "ילדים",
-        "details": "הקרנת סרט על מסך ענק בפארק ענבה: פלונטר",
-        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
-    },
-    {
         "date": "2022-07-20",
         "city": "ראשון לציון",
         "day": "רביעי",
@@ -478,6 +368,16 @@
         "category": "מבוגרים",
         "details": "מופעי קיץ בגן בן שפר - מופע מרכזי של חנן יובל",
         "url": "https://www.herzliya.muni.il/events/2848/"
+    },
+    {
+        "date": "2022-07-24",
+        "city": "אשדוד",
+        "day": "ראשון",
+        "startHour": "18:30",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "פסטיבל בפארק אשדוד ים - מופע הילדים של סמי הכבאי, מתחם משחקים ומתקני מתנפחים",
+        "url": "https://www.ashdod.muni.il/media/16508721/summer-fest_digital-program_julaug.pdf"
     },
     {
         "date": "2022-07-25",
@@ -1158,5 +1058,1095 @@
         "category": "ילדים",
         "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) מלך האריות (פופקורן וברד חינם)",
         "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-08",
+        "city": "רמת גן",
+        "day": "שני",
+        "startHour": "19:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת 2 סרטים בפארק הלאומי ר\"ג (ילדים ומבוגרים) עץ המשאלות / חומוס FULL טריילר",
+        "url": "https://www.ramat-gan.muni.il/?catid=%7B612E75F0-8334-49EB-90B6-E3E71B42B8CC%7D"
+    },
+    {
+        "date": "2022-08-08",
+        "city": "הוד השרון",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "הופעה של כוכבי ילדים במתחם שרונים ברחבה המרכזית בקומת הקרקע - \"קרקס נו פרובלם\"",
+        "url": "https://www.facebook.com/sharonim.mall/posts/5802229556457853"
+    },
+    {
+        "date": "2022-08-08",
+        "city": "רמת השרון",
+        "day": "שני",
+        "startHour": "17:30",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "מופע שירי הביטלס לכל המשפחה עם להקת אומהגומה בכיכר העירייה ",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%9e%d7%a1%d7%a2-%d7%91%d7%a6%d7%95%d7%9c%d7%9c%d7%aa-%d7%94%d7%a6%d7%94%d7%95%d7%91%d7%94-%d7%a2%d7%9d-%d7%9c%d7%94%d7%a7%d7%aa-%d7%90%d7%95%d7%9e%d7%94%d7%92%d7%95%d7%9e%d7%94/"
+    },
+    {
+        "date": "2022-08-08",
+        "city": "יבנה",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפניגנ בפארק הנחל - מתנפחים, סדנאות יצירה והופעת ילדים: אחותי ליאור",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39037&did=4447&G="
+    },
+    {
+        "date": "2022-08-08",
+        "city": "מודיעין",
+        "day": "שני",
+        "startHour": "17:30",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפנינג משפחתי בפארק עמק האלה - מתנפחים, סדנאות יצירה והפעלות",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "תל אביב",
+        "day": "שלישי",
+        "startHour": "18:30",
+        "activityType": "מופע מוזיקלי",
+        "category": "משפחה",
+        "details": "מופע לכל המשפחה באמפי הטריבונה בנמל ת\"א - התפוזים (הלהיטים הגדולים של אמני ישראל)",
+        "url": "https://www.namal.co.il/events/%d7%9e%d7%95%d7%a4%d7%a2%d7%99-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%9c%d7%99%d7%99%d7%9d-%d7%9c%d7%9b%d7%9c-%d7%94%d7%9e%d7%a9%d7%a4%d7%97%d7%94-%d7%91%d7%aa/"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "תל אביב",
+        "day": "שלישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הופעות קיץ בשוק הפשפשים - גרוב אמבסדור (מוזיקה מתרבויות אפריקאיות)",
+        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=33808"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "רעננה",
+        "day": "שלישי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "משאית הסרטים של רעננה: הסרט לאסי שובי הביתה בחורשת חסן",
+        "url": "https://tickets.raanana.muni.il/%D7%A1%D7%93%D7%A8%D7%AA_%D7%A1%D7%A8%D7%98%D7%99%D7%9D_%D7%A2%D7%9C_%D7%92%D7%9C%D7%92%D7%9C%D7%99%D7%9D_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%95%D7%AA_"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "גבעתיים",
+        "day": "שלישי",
+        "startHour": "11:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפנינג מים בפארק גבעתיים בשני סבבים: 11-14 16-19",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "אור יהודה",
+        "day": "שלישי",
+        "startHour": "18:30",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "חגיגת קיץ בפארק נוה רבין באור יהודה עם הופעה של סטפן לגר",
+        "url": "https://www.oryehuda.muni.il/events/1251/"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "מודיעין",
+        "day": "שלישי",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת סרט על מסך ענק בפארק ענבה: לשבור את הקרח",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-09",
+        "city": "אשדוד",
+        "day": "שלישי",
+        "startHour": "18:30",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "פסטיבל בפארק אשדוד ים - מופע הילדים של ספורטולי, מתחם משחקים ומתקני מתנפחים",
+        "url": "https://www.ashdod.muni.il/media/16508721/summer-fest_digital-program_julaug.pdf"
+    },
+    {
+        "date": "2022-08-10",
+        "city": "עפולה",
+        "day": "רביעי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "עילאי בוטנר וילדי החוץ בהופעה (בימות פיס) בפארק הרכבת",
+        "url": "https://culture.pais.co.il/Interdisciplinary/Pages/bimot_pais_shows_list_2022.aspx"
+    },
+    {
+        "date": "2022-08-10",
+        "city": "רעננה",
+        "day": "רביעי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "להקת קרניבנד במופע מחווה ללהקת אבבא ברחבת יד לבנים",
+        "url": "https://tickets.raanana.muni.il/%D7%A2%D7%A8%D7%91_%D7%9E%D7%97%D7%95%D7%95%D7%94_%D7%9C%D7%9C%D7%94%D7%A7%D7%AA_ABBA"
+    },
+    {
+        "date": "2022-08-10",
+        "city": "גבעתיים",
+        "day": "רביעי",
+        "startHour": "11:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפנינג מים בפארק גבעתיים בשני סבבים: 11-14 16-19",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-10",
+        "city": "הרצליה",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים - קליפורד הכלב האדום הגדול - ברחבת שער העיר",
+        "url": "https://www.herzliya.muni.il/events/2875/"
+    },
+    {
+        "date": "2022-08-10",
+        "city": "יהוד",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) מואנה (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-10",
+        "city": "מודיעין",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "ענבה קידס - הופעת ילדים של סבא טוביה בפארק ענבה",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-11",
+        "city": "יבנה",
+        "day": "חמישי",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפנינג בפארק הסנהדרין - מתנפחים, סדנאות יצירה והופעת ילדים: אסתר ואוטו הגלידה",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39029&did=4447&G="
+    },
+    {
+        "date": "2022-08-11",
+        "city": "מזכרת בתיה",
+        "day": "חמישי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "רותם כהן בהופעה (בימות פיס) באמפי פארק מזכרת בתיה",
+        "url": "https://culture.pais.co.il/Interdisciplinary/Pages/bimot_pais_shows_list_2022.aspx"
+    },
+    {
+        "date": "2022-08-11",
+        "city": "מודיעין",
+        "day": "חמישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הדג נחש בהופעה (בימות פיס) בפארק ענבה",
+        "url": "https://culture.pais.co.il/Interdisciplinary/Pages/bimot_pais_shows_list_2022.aspx"
+    },
+    {
+        "date": "2022-08-11",
+        "city": "ראש העין",
+        "day": "חמישי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "התקווה 6 בהופעה (בימות פיס) באמפי אגם הצלילים",
+        "url": "https://culture.pais.co.il/Interdisciplinary/Pages/bimot_pais_shows_list_2022.aspx"
+    },
+    {
+        "date": "2022-08-11",
+        "city": "תל אביב",
+        "day": "חמישי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "שרונה חי בפארק - יריד מעצבים והופעה של עלמה זוהר",
+        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=32300"
+    },
+    {
+        "date": "2022-08-11",
+        "city": "רמת השרון",
+        "day": "חמישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "רוקוויל במופע שירי אהבה לט\"ו באב בפארק הנצח",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%90%d7%99%d7%a8%d7%95%d7%a2%d7%99-%d7%a7%d7%99%d7%a5-%d7%a8%d7%95%d7%a7%d7%95%d7%95%d7%99%d7%9c-heart-attack-%d7%98%d7%95-%d7%91%d7%90%d7%91/"
+    },
+    {
+        "date": "2022-08-12",
+        "city": "מודיעין",
+        "day": "שישי",
+        "startHour": "16:00",
+        "activityType": "מסיבה",
+        "category": "משפחה",
+        "details": "מסיבת מזרקות בפארק ענבה - מסיבת ריקודים עם די.גי חן סוקולובסקי",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-13",
+        "city": "הרצליה",
+        "day": "שבת",
+        "startHour": "19:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "קונצרטים בפארק הרצליה - שיר וצחוק, הומור במוסיקה. תזמורת סימפונט רעננה וזמרות אורחות",
+        "url": "https://www.herzliya.muni.il/events/2882/"
+    },
+    {
+        "date": "2022-08-13",
+        "city": "יהוד",
+        "day": "שבת",
+        "startHour": "11:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) לאו דה וינצי שודדי האוצר (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-13",
+        "city": "רמת גן",
+        "day": "שבת",
+        "startHour": "16:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "מתנפחי מים בכיכר שניצר מתחם הבורסה בר\"ג",
+        "url": ""
+    },
+    {
+        "date": "2022-08-13",
+        "city": "מודיעין",
+        "day": "שבת",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "לילות ענבה - הגרובטרון במופע של קלאסיקות ישראליות באווירה של מסיבה",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-14",
+        "city": "הרצליה",
+        "day": "ראשון",
+        "startHour": "17:30",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "צוציקיץ - הופעה לקטנטנים: יובל המבולבל ברחבת שער העיר",
+        "url": "https://www.herzliya.muni.il/events/2876/"
+    },
+    {
+        "date": "2022-08-14",
+        "city": "הרצליה",
+        "day": "ראשון",
+        "startHour": "18:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "מופעי קיץ בגן בן שפר - מופע מרכזי: קרנבל דרום אמריקאי עם אנסמבל לפולקלור והזמרת אנה שפיץ",
+        "url": "https://www.herzliya.muni.il/events/2860/"
+    },
+    {
+        "date": "2022-08-14",
+        "city": "גבעתיים",
+        "day": "ראשון",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "משחקים הפעלות המופע קצפת ותות והקרנת הסרט לוקה בגבעתיים בגן הפסלים",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-14",
+        "city": "נתניה",
+        "day": "ראשון",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "משפחה",
+        "details": "ערב סרט לכל המשפחה על מסך ענק בנתניה (במרכז קהילתי נאות גנים)",
+        "url": "https://www.netanya.muni.il/City/Events/Pages/seret030722.aspx"
+    },
+    {
+        "date": "2022-08-14",
+        "city": "נתניה",
+        "day": "ראשון",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים ברחבת הפארק בקניון עיר ימים - פיטר ראביט 2",
+        "url": "https://www.iryamim-mall.co.il/%D7%94%D7%9E%D7%92%D7%96%D7%99%D7%9F/?fbclid=IwAR3SH73V0gGtu5q-omzeTxKTquX2S8UBK8B5qI_UaEP__Ik8-qA-6jIUdYA"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "יבנה",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפניגנ בפארק הנחל - מתנפחים, סדנאות יצירה והופעת ילדים: גלי מלכת השלג (מערוץ לולי)",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39036&did=4447&G="
+    },
+    {
+        "date": "2022-08-15",
+        "city": "הרצליה",
+        "day": "שני",
+        "startHour": "17:30",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "צוציקיץ - הופעה לקטנטנים: מני ממטרה ברחבת שער העיר",
+        "url": "https://www.herzliya.muni.il/events/2877/"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "הוד השרון",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "הופעה של כוכבי ילדים במתחם שרונים ברחבה המרכזית בקומת הקרקע - \"קרקס און אוף\"",
+        "url": "https://www.facebook.com/sharonim.mall/posts/5802229556457853"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "רמת גן",
+        "day": "שני",
+        "startHour": "19:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת 2 סרטים בפארק הלאומי ר\"ג (ילדים ומבוגרים) ארנגול ושודדי האוצר האבוד/ סיפור הפרברים",
+        "url": "https://www.ramat-gan.muni.il/?catid=%7B612E75F0-8334-49EB-90B6-E3E71B42B8CC%7D"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "יהוד",
+        "day": "שני",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) לגו 2 (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "תל אביב",
+        "day": "שני",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרטי דיסני (בדיבוב לעברית) על מסך ענק בנמל ת\"א - אנקאנטו",
+        "url": "https://www.namal.co.il/events/%d7%a1%d7%a8%d7%98%d7%99-%d7%93%d7%99%d7%a1%d7%a0%d7%99-%d7%94%d7%90%d7%94%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%94%d7%a7%d7%a8%d7%a0%d7%94-%d7%a2%d7%9c-%d7%9e%d7%a1%d7%9a-%d7%a2%d7%a0%d7%a7-%d7%94/"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "רמת השרון",
+        "day": "שני",
+        "startHour": "18:00",
+        "activityType": "הצגה",
+        "category": "ילדים",
+        "details": "הצגה של תיאטרון הילדים הישראלי - \"ספר הג'ונגל\" בפארק הנצח",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%90%d7%99%d7%a8%d7%95%d7%a2%d7%99-%d7%a7%d7%99%d7%a5-%d7%a1%d7%a4%d7%a8-%d7%94%d7%92%d7%95%d7%a0%d7%92%d7%9c-%d7%9c%d7%99%d7%9c%d7%93%d7%99%d7%9d-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8/"
+    },
+    {
+        "date": "2022-08-15",
+        "city": "מודיעין",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "קיץ שכונתי - ירוק על המים, חגיגת מים וסביבה לילדים בפארק ענבה",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "הרצליה",
+        "day": "שלישי",
+        "startHour": "17:30",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "צוציקיץ - הופעה לקטנטנים: קופיקו ברחבת שער העיר",
+        "url": "https://www.herzliya.muni.il/events/2878/"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "רעננה",
+        "day": "שלישי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "משאית הסרטים של רעננה: הסרט לוקה בגינת הנשיאים",
+        "url": "https://tickets.raanana.muni.il/%D7%A1%D7%93%D7%A8%D7%AA_%D7%A1%D7%A8%D7%98%D7%99%D7%9D_%D7%A2%D7%9C_%D7%92%D7%9C%D7%92%D7%9C%D7%99%D7%9D_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%95%D7%AA_"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "רעננה",
+        "day": "שלישי",
+        "startHour": "22:00",
+        "activityType": "סרט",
+        "category": "מבוגרים",
+        "details": "הקרנת סרט תחת כיפת השמיים בפארק רעננה מסביב לאגם",
+        "url": "https://tickets.raanana.muni.il/%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%AA%D7%97%D7%AA_%D7%9B%D7%99%D7%A4%D7%AA_%D7%94%D7%A9%D7%9E%D7%99%D7%99%D7%9D_%D7%9C%D7%A0%D7%95%D7%A2%D7%A8_2022"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "כפר סבא",
+        "day": "שלישי",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת סרט בפארק העירוני: אנקאנטו",
+        "url": "https://www.kfar-saba.muni.il/events/1616/"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "גבעתיים",
+        "day": "שלישי",
+        "startHour": "17:30",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "מופע מוזיקלי לילדים והקרנת הסרט אנקאנטו בגבעתיים בגן רבקה",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "תל אביב",
+        "day": "שלישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הופעות קיץ בשוק הפשפשים - תסלים (מוזיקה ערבית)",
+        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=33808"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "רמת השרון",
+        "day": "שלישי",
+        "startHour": "20:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "תזמורת סימפונט רעננה בקונצרט המוקדש ליצירה המוזיקלית האיטלקית, ברחבת יד לבנים",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%94%d7%a7%d7%a1%d7%9d-%d7%a9%d7%9c-%d7%90%d7%99%d7%98%d7%9c%d7%99%d7%94-%d7%a1%d7%99%d7%9e%d7%a4%d7%95%d7%a0%d7%98-%d7%a8%d7%a2%d7%a0%d7%a0%d7%94/"
+    },
+    {
+        "date": "2022-08-16",
+        "city": "מודיעין",
+        "day": "שלישי",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת סרט על מסך ענק בפארק ענבה: לוקה",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-17",
+        "city": "רעננה",
+        "day": "רביעי",
+        "startHour": "17:30",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "סאמר וייבס בקניון רננים - הופעה של קצפת ותות כוכבי הילדים מהופ! ילדות ישראלית",
+        "url": "https://www.renanim.co.il/event/%d7%9e%d7%95%d7%a4%d7%a2-%d7%a9%d7%9c-%d7%a7%d7%a6%d7%a4%d7%aa-%d7%95%d7%aa%d7%95%d7%aa/"
+    },
+    {
+        "date": "2022-08-17",
+        "city": "יהוד",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) ג'ים ונהג הקטר (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-17",
+        "city": "מגידו",
+        "day": "רביעי",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל יערות מנשה - סאותפארק. הופעות בכניסה חופשית: עמיר לב, טדי נגוסה, כהן ועוד (רשימה מלאה בפרטים)",
+        "url": "https://www.facebook.com/yearotfestival"
+    },
+    {
+        "date": "2022-08-18",
+        "city": "יבנה",
+        "day": "חמישי",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפנינג בפארק הסנהדרין - מתנפחים, סדנאות יצירה והופעת ילדים: יניב המגניב",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39028&did=4447&G="
+    },
+    {
+        "date": "2022-08-18",
+        "city": "כפר סבא",
+        "day": "חמישי",
+        "startHour": "20:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "חגיגת טברנה יוונית בכיכר העיר. בהנחיית שמעון פרנס ומופעים של טריפונס והיווניה",
+        "url": "https://www.kfar-saba.muni.il/events/1638/"
+    },
+    {
+        "date": "2022-08-18",
+        "city": "רמת גן",
+        "day": "חמישי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "ליאור נרקיס בהופעה (בימות פיס) בפארק הלאומי ברמת גן",
+        "url": "https://culture.pais.co.il/Interdisciplinary/Pages/bimot_pais_shows_list_2022.aspx"
+    },
+    {
+        "date": "2022-08-18",
+        "city": "רמת השרון",
+        "day": "חמישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "זהבה בן בהופעה (בימות פיס) בפארק הנצח",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%90%d7%99%d7%a8%d7%95%d7%a2%d7%99-%d7%a7%d7%99%d7%a5-%d7%96%d7%94%d7%91%d7%94-%d7%91%d7%9f/"
+    },
+    {
+        "date": "2022-08-18",
+        "city": "מודיעין",
+        "day": "חמישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "קיץ בענבה - תזמורת צה\"ל מארחת להופעה את שירי מימון בפארק ענבה ",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-18",
+        "city": "תל אביב",
+        "day": "חמישי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "שרונה חי בפארק - יריד מעצבים והופעה של יונימה",
+        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=32300"
+    },
+    {
+        "date": "2022-08-18",
+        "city": "מגידו",
+        "day": "חמישי",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל יערות מנשה - סאותפארק. הופעות בכניסה חופשית: עמיר לב, טדי נגוסה, כהן ועוד (רשימה מלאה בפרטים)",
+        "url": "https://www.facebook.com/yearotfestival"
+    },
+    {
+        "date": "2022-08-19",
+        "city": "יפו",
+        "day": "שישי",
+        "startHour": "13:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "שישי LIVE בנמל יפו. הופעה חיה על המזח: ג'ימבו ג'יי",
+        "url": "https://www.facebook.com/events/427606915641929/?active_tab=discussion"
+    },
+    {
+        "date": "2022-08-19",
+        "city": "מגידו",
+        "day": "שישי",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל יערות מנשה - סאותפארק. הופעות בכניסה חופשית: עמיר לב, טדי נגוסה, כהן ועוד (רשימה מלאה בפרטים)",
+        "url": "https://www.facebook.com/yearotfestival"
+    },
+    {
+        "date": "2022-08-20",
+        "city": "הרצליה",
+        "day": "שבת",
+        "startHour": "19:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "קונצרטים והופעות בפארק הרצליה - גיל שוחט ואנסמבל פוליפוניה מארחים את שלומית אהרון ויותם כהן",
+        "url": "https://www.herzliya.muni.il/events/2883/"
+    },
+    {
+        "date": "2022-08-20",
+        "city": "יהוד",
+        "day": "שבת",
+        "startHour": "11:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) הנסיכה איימי (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-20",
+        "city": "רמת גן",
+        "day": "שבת",
+        "startHour": "16:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "מתנפחי מים בכיכר שניצר מתחם הבורסה בר\"ג",
+        "url": ""
+    },
+    {
+        "date": "2022-08-20",
+        "city": "מגידו",
+        "day": "שבת",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל יערות מנשה - סאותפארק. הופעות בכניסה חופשית: עמיר לב, טדי נגוסה, כהן ועוד (רשימה מלאה בפרטים)",
+        "url": "https://www.facebook.com/yearotfestival"
+    },
+    {
+        "date": "2022-08-21",
+        "city": "גבעתיים",
+        "day": "ראשון",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "משחקים הפעלות וישראל והגיטרה בגבעתיים בגן ויקטור",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-21",
+        "city": "נתניה",
+        "day": "ראשון",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים ברחבת הפארק בקניון עיר ימים - נשמה (דיסני)",
+        "url": "https://www.iryamim-mall.co.il/%D7%94%D7%9E%D7%92%D7%96%D7%99%D7%9F/?fbclid=IwAR3SH73V0gGtu5q-omzeTxKTquX2S8UBK8B5qI_UaEP__Ik8-qA-6jIUdYA"
+    },
+    {
+        "date": "2022-08-22",
+        "city": "יבנה",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפניגנ בפארק הנחל - מתנפחים, סדנאות יצירה והופעת ילדים: הילה הכל יכולה",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39035&did=4447&G="
+    },
+    {
+        "date": "2022-08-22",
+        "city": "הוד השרון",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "הופעה של כוכבי ילדים במתחם שרונים ברחבה המרכזית בקומת הקרקע - \"יובל המבולבל\"",
+        "url": "https://www.facebook.com/sharonim.mall/posts/5802229556457853"
+    },
+    {
+        "date": "2022-08-22",
+        "city": "יהוד",
+        "day": "שני",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) לשבור את הקסם מלכת השלג 4 (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-22",
+        "city": "תל אביב",
+        "day": "שני",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרטי דיסני (בדיבוב לעברית) על מסך ענק בנמל ת\"א - ריה והדרקון האחרון",
+        "url": "https://www.namal.co.il/events/%d7%a1%d7%a8%d7%98%d7%99-%d7%93%d7%99%d7%a1%d7%a0%d7%99-%d7%94%d7%90%d7%94%d7%95%d7%91%d7%99%d7%9d-%d7%91%d7%94%d7%a7%d7%a8%d7%a0%d7%94-%d7%a2%d7%9c-%d7%9e%d7%a1%d7%9a-%d7%a2%d7%a0%d7%a7-%d7%94/"
+    },
+    {
+        "date": "2022-08-22",
+        "city": "מודיעין",
+        "day": "שני",
+        "startHour": "17:30",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "קיץ שכונתי - מתנפחים, סדנאות יצירה והפעלות לילדים בפארק יער יתיר",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "רמת גן",
+        "day": "שלישי",
+        "startHour": "19:00 21:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת 2 סרטים בפארק הלאומי ר\"ג (ילדים ומבוגרים) איינבו ושומרי הג'ונגל / משפחה מנצחת",
+        "url": "https://www.ramat-gan.muni.il/?catid=%7B612E75F0-8334-49EB-90B6-E3E71B42B8CC%7D"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "רמת השרון",
+        "day": "שלישי",
+        "startHour": "18:00",
+        "activityType": "הצגה",
+        "category": "ילדים",
+        "details": "סמי הכבאי - המופע המוזיקלי הרשמי לילדים בגינת סוזי קליפר",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%90%d7%99%d7%a8%d7%95%d7%a2%d7%99-%d7%a7%d7%99%d7%a5-%d7%99%d7%9c%d7%93%d7%99%d7%9d-%d7%a1%d7%9e%d7%99-%d7%94%d7%9b%d7%91%d7%90%d7%99/"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "רעננה",
+        "day": "שלישי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "משאית הסרטים של רעננה: הסרט חבורת חיות המחמד בגינת אריגי",
+        "url": "https://tickets.raanana.muni.il/%D7%A1%D7%93%D7%A8%D7%AA_%D7%A1%D7%A8%D7%98%D7%99%D7%9D_%D7%A2%D7%9C_%D7%92%D7%9C%D7%92%D7%9C%D7%99%D7%9D_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%95%D7%AA_"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "נתניה",
+        "day": "שלישי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הופעה של הדג נחש עם אנסמבל טרמולו כלי הקשה בנתניה בכיכר העצמאות",
+        "url": "https://www.netanya.muni.il/City/Events/Pages/hadagnachash230822.aspx"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "אור יהודה",
+        "day": "שלישי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "פסטיבל קרקס באור יהודה ",
+        "url": "https://www.oryehuda.muni.il/events/1253/"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "תל אביב",
+        "day": "שלישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הופעות קיץ בשוק הפשפשים - סקנדלי (חפלה צוענית)",
+        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=33808"
+    },
+    {
+        "date": "2022-08-23",
+        "city": "מודיעין",
+        "day": "שלישי",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "הקרנת סרט על מסך ענק בפארק ענבה: מלך האריות",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-24",
+        "city": "יהוד",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) הנסיכה אנקנטו (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-24",
+        "city": "גבעתיים",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל הבירה בגבעתיים איפה הילד מארחים את דנה ברגר",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-24",
+        "city": "מודיעין",
+        "day": "רביעי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "ענבה קידס - הופעת ילדים סמי הכבאי המופע הרשמי, בפארק ענבה",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-25",
+        "city": "יבנה",
+        "day": "חמישי",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפנינג בפארק הסנהדרין - מתנפחים, סדנאות יצירה והופעת ילדים: לירון איש האווירון",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39027&did=4447&G="
+    },
+    {
+        "date": "2022-08-25",
+        "city": "גבעתיים",
+        "day": "חמישי",
+        "startHour": "18:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל הבירה בגבעתיים כנסיית השכל",
+        "url": "https://www.givatayim.muni.il/1104/"
+    },
+    {
+        "date": "2022-08-25",
+        "city": "רמת השרון",
+        "day": "חמישי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "שלום חנוך הופעת רוק בפארק הנצח",
+        "url": "https://ramat-hasharon.muni.il/events/%d7%90%d7%99%d7%a8%d7%95%d7%a2%d7%99-%d7%a7%d7%99%d7%a5-%d7%a9%d7%9c%d7%95%d7%9d-%d7%97%d7%a0%d7%95%d7%9a/"
+    },
+    {
+        "date": "2022-08-25",
+        "city": "נס ציונה",
+        "day": "חמישי",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "שירי מימון בהופעה של בימות פיס בנס ציונה (פארק המחול) כניסה חופשית",
+        "url": ""
+    },
+    {
+        "date": "2022-08-25",
+        "city": "רעננה",
+        "day": "חמישי",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "משפחה",
+        "details": "הפנינג ספורטיבי לכל המשפחה ברחבת יד לבנים - מתנפחים, הפעלות ספורט, מעגל מתופפים ועוד",
+        "url": "https://computing.activetrail.biz/RaananaSportSummer2022"
+    },
+    {
+        "date": "2022-08-26",
+        "city": "מודיעין",
+        "day": "שישי",
+        "startHour": "16:00",
+        "activityType": "מסיבה",
+        "category": "משפחה",
+        "details": "מסיבת מזרקות בפארק ענבה - מסיבת ריקודים עם די.גי איציק גוטצייט",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-27",
+        "city": "הרצליה",
+        "day": "שבת",
+        "startHour": "19:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "קונצרטים בפארק הרצליה - גיל שוחט ואנסמבל פוליפוניה מארחים את להקת חופים עם: משה דץ, חני ליבנה ואורי בנאי",
+        "url": "https://www.herzliya.muni.il/events/2884/"
+    },
+    {
+        "date": "2022-08-27",
+        "city": "יהוד",
+        "day": "שבת",
+        "startHour": "11:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים במרכז ביג יהוד (קומה 2 ליד המסעדות) הבאג של רון (פופקורן וברד חינם)",
+        "url": "https://lpc.fixdigital.co.il/BIG_yahud_movies/?fbclid=IwAR2_eHvgf3NPqtNTPsjlAVMc7FkcTxzup7Caw_OVM6Ng4HbJ52Pe9EpIcxs"
+    },
+    {
+        "date": "2022-08-27",
+        "city": "רמת גן",
+        "day": "שבת",
+        "startHour": "16:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "מתנפחי מים בכיכר שניצר מתחם הבורסה בר\"ג",
+        "url": ""
+    },
+    {
+        "date": "2022-08-27",
+        "city": "מודיעין",
+        "day": "שבת",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "לילות ענבה - חתולי הרחוב, מופע באווירה ים תיכונית נוסטלגית. רוק ישן וחפלת קצב",
+        "url": "https://www.modiin.muni.il/ModiinWebSite/ArticlePage.aspx?PageID=1435_9433"
+    },
+    {
+        "date": "2022-08-28",
+        "city": "חולון",
+        "day": "ראשון",
+        "startHour": "19:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "אירוע סיום הקיץ - מופע לכל המשפחה - מפרץ ההרפתקאות, מיקי כוכבת הילדים וסטטיק ובן אל",
+        "url": "https://www.holon.muni.il/Lists/List2/CustomDispForm.aspx?ID=2529"
+    },
+    {
+        "date": "2022-08-28",
+        "city": "רעננה",
+        "day": "ראשון",
+        "startHour": "18:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "משאית הסרטים של רעננה: הסרט הסוד של לילי בגינת חגי",
+        "url": "https://tickets.raanana.muni.il/%D7%A1%D7%93%D7%A8%D7%AA_%D7%A1%D7%A8%D7%98%D7%99%D7%9D_%D7%A2%D7%9C_%D7%92%D7%9C%D7%92%D7%9C%D7%99%D7%9D_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%95%D7%AA_"
+    },
+    {
+        "date": "2022-08-28",
+        "city": "נתניה",
+        "day": "ראשון",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "משפחה",
+        "details": "ערב סרט לכל המשפחה על מסך ענק בנתניה (במרכז קהילתי נאות גנים)",
+        "url": "https://www.netanya.muni.il/City/Events/Pages/seret030722.aspx"
+    },
+    {
+        "date": "2022-08-28",
+        "city": "נתניה",
+        "day": "ראשון",
+        "startHour": "20:00",
+        "activityType": "סרט",
+        "category": "ילדים",
+        "details": "סרט ילדים ברחבת הפארק בקניון עיר ימים - נשמה (דיסני)",
+        "url": "https://www.iryamim-mall.co.il/%D7%94%D7%9E%D7%92%D7%96%D7%99%D7%9F/?fbclid=IwAR3SH73V0gGtu5q-omzeTxKTquX2S8UBK8B5qI_UaEP__Ik8-qA-6jIUdYA"
+    },
+    {
+        "date": "2022-08-29",
+        "city": "יבנה",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפניגנ בפארק הנחל - מתנפחים, סדנאות יצירה והופעת: ללי במופע שירים וריקודים",
+        "url": "https://www.matnasyavne.co.il/html5/EventProLookup.taf?_id=39034&did=4447&G="
+    },
+    {
+        "date": "2022-08-29",
+        "city": "רעננה",
+        "day": "שני",
+        "startHour": "21:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הופעה של ליאור נרקיס (בימות פיס) באמפי פארק רעננה",
+        "url": "https://tickets.raanana.muni.il/%D7%9C%D7%99%D7%90%D7%95%D7%A8_%D7%A0%D7%A8%D7%A7%D7%99%D7%A1__%D7%91%D7%9E%D7%99%D7%98%D7%91_%D7%94%D7%9C%D7%94%D7%99%D7%98%D7%99%D7%9D"
+    },
+    {
+        "date": "2022-08-29",
+        "city": "חולון",
+        "day": "שני",
+        "startHour": "19:30",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "אירוע סיום הקיץ - מופע לכל המשפחה - אגם בוחבוט, שחר סאול, אבי אבורומי",
+        "url": "https://www.holon.muni.il/Lists/List2/CustomDispForm.aspx?ID=2529"
+    },
+    {
+        "date": "2022-08-29",
+        "city": "הוד השרון",
+        "day": "שני",
+        "startHour": "17:00",
+        "activityType": "הופעה",
+        "category": "ילדים",
+        "details": "הופעה של כוכבי ילדים במתחם שרונים ברחבה המרכזית בקומת הקרקע - \"קוגומלו\"",
+        "url": "https://www.facebook.com/sharonim.mall/posts/5802229556457853"
+    },
+    {
+        "date": "2022-08-30",
+        "city": "תל אביב",
+        "day": "שלישי",
+        "startHour": "20:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "הופעות קיץ בשוק הפשפשים - סניור ארושס (גרוב לטיני)",
+        "url": "https://www.tel-aviv.gov.il/Pages/MainItemPage.aspx?WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&ItemID=33808"
+    },
+    {
+        "date": "2022-08-30",
+        "city": "כפר סבא",
+        "day": "שלישי",
+        "startHour": "16:00",
+        "activityType": "הפעלות ילדים",
+        "category": "ילדים",
+        "details": "הפניניג מים בפארק העירוני - מתנפחי מים, מסיבת קצף ועוד",
+        "url": ""
+    },
+    {
+        "date": "2022-09-02",
+        "city": "יפו",
+        "day": "שישי",
+        "startHour": "13:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "שישי LIVE בנמל יפו. הופעה חיה על המזח: פולטראנק",
+        "url": "https://www.facebook.com/events/427606915641929/?active_tab=discussion"
+    },
+    {
+        "date": "2022-09-16",
+        "city": "יפו",
+        "day": "שישי",
+        "startHour": "13:00",
+        "activityType": "הופעה",
+        "category": "משפחה",
+        "details": "שישי LIVE בנמל יפו. הופעה חיה על המזח: יסמין מועלם",
+        "url": "https://www.facebook.com/events/427606915641929/?active_tab=discussion"
+    },
+    {
+        "date": "2022-10-11",
+        "city": "עין גדי",
+        "day": "שלישי",
+        "startHour": "18:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל התמר - הופעה פתוחה לקהל הרחב: מאיה אברהם בקיבוץ עין גדי תחת עץ הבאובב",
+        "url": "https://www.tamarfestival.com/"
+    },
+    {
+        "date": "2022-10-12",
+        "city": "עין גדי",
+        "day": "רביעי",
+        "startHour": "18:30",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל התמר - הופעה פתוחה לקהל הרחב: כח ראסטה בקיבוץ עין גדי תחת עץ הבאובב",
+        "url": "https://www.tamarfestival.com/"
+    },
+    {
+        "date": "2022-10-12",
+        "city": "ישובי סדום",
+        "day": "רביעי",
+        "startHour": "19:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל התמר - הופעה פתוחה לקהל הרחב: אפרת גוש בישובי כיכר סדום",
+        "url": "https://www.tamarfestival.com/"
+    },
+    {
+        "date": "2022-10-13",
+        "city": "ישובי סדום",
+        "day": "חמישי",
+        "startHour": "19:00",
+        "activityType": "הופעה",
+        "category": "מבוגרים",
+        "details": "פסטיבל התמר - הופעה פתוחה לקהל הרחב: טרנטה גרוב מאשין בישובי כיכר סדום",
+        "url": "https://www.tamarfestival.com/"
     }
 ]
