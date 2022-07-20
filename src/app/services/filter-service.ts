@@ -15,7 +15,6 @@ export class FilterService {
     startFilteringDate.setDate(startFilteringDate.getDate());
     startFilteringDate.setHours(0);
     startFilteringDate.setMinutes(0);
-    console.log(startFilteringDate)
     return startFilteringDate;
   }
 }
