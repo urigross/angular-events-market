@@ -12,6 +12,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { DonateComponent } from './pages/donate/donate.component';
 import { HeaderOpeningComponent } from './components/header-components/header-opening/header-opening.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CityFilterComponent } from './components/filters/city-filter/city-filter.component';
 
 
 
@@ -26,6 +27,7 @@ import { FooterComponent } from './components/footer/footer.component';
     DonateComponent,
     HeaderOpeningComponent,
     FooterComponent,
+    CityFilterComponent,
     
   ],
   imports: [
