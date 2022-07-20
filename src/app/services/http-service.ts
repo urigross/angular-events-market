@@ -19,7 +19,6 @@ export class HttpService {
   getPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.postsUrl)
       .pipe(
-        tap(_ => console.log('fetched posts')),
         catchError(this._handleError<Post[]>('getPosts', []))
       );
   }
