@@ -12,9 +12,10 @@ export class FilterService {
   }
   private _getstartFilteringDate():Date{
     var startFilteringDate: Date = new Date;
-    startFilteringDate.setDate(startFilteringDate.getDate()+1);
+    startFilteringDate.setDate(startFilteringDate.getDate());
     startFilteringDate.setHours(0);
     startFilteringDate.setMinutes(0);
+    console.log(startFilteringDate)
     return startFilteringDate;
   }
 }
