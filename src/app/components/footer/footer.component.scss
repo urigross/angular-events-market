@@ -3,9 +3,17 @@
     font-family:'Rubik Regular', Courier, monospace;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
     justify-content: center;
     color: crimson;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600;
+    p{
+        color: black;
+        max-width: 700px;
+        text-align: center;
+    }
 }
