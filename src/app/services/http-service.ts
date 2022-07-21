@@ -29,6 +29,11 @@ export class HttpService {
       return of(result as T);
     }
   }
+
+  //Http Client get method
+public getPosts2(): Observable<any> {
+  return this.http.get<any>(this.postsUrl);
+}
   getSummerEvents(posts:Post[]):SummerEvent[]{
     var eventsToReturn: SummerEvent[]=[];
     posts.forEach(({date, city,day,startHour,activityType,category, details, url}) => {
