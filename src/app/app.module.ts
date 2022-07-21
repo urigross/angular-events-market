@@ -13,6 +13,8 @@ import { DonateComponent } from './pages/donate/donate.component';
 import { HeaderOpeningComponent } from './components/header-components/header-opening/header-opening.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CityFilterComponent } from './components/filters/city-filter/city-filter.component';
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
+
 
 
 
@@ -27,14 +29,18 @@ import { CityFilterComponent } from './components/filters/city-filter/city-filte
     DonateComponent,
     HeaderOpeningComponent,
     FooterComponent,
-    CityFilterComponent,
+    CityFilterComponent
+    
     
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgxGoogleAnalyticsModule.forRoot('G-1HMJDEZ4E2'),
+    NgxGoogleAnalyticsRouterModule
+
     
     
     
