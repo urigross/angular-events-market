@@ -12,6 +12,7 @@ import { HttpService } from 'src/app/services/http-service';
 })
 export class EventsHomeComponent implements OnInit {
   public summerEvents: SummerEvent[] = [];
+  public posts: Post[] = [];
 
   constructor(private httpService: HttpService, private filterService: FilterService) { }
 
@@ -22,6 +23,7 @@ export class EventsHomeComponent implements OnInit {
   getSummerEvents(): void{
     this.httpService.getPosts()
     .subscribe(posts => {
+      this.posts = posts;
       this.summerEvents = this.httpService.getSummerEvents(posts);
       this.summerEvents = this.filterService.getFutureSummerEvents(this.summerEvents);
       this.summerEvents = this.httpService.getDateSortedPosts(this.summerEvents);      // Sort them by date.
