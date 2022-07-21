@@ -19,9 +19,10 @@ export class EventsHomeComponent implements OnInit {
   constructor(private httpService: HttpService, private filterService: FilterService) { }
 
   ngOnInit(): void {
-    this.getSummerEvents();
+   // this.getSummerEvents();
     this.httpService.getPosts2().subscribe(response => {
-      this.posts2 = response;
+      this.posts = response;
+      this.summerEvents = this.httpService.getSummerEvents(response);
   });
     
   }
@@ -29,7 +30,6 @@ export class EventsHomeComponent implements OnInit {
     this.httpService.getPosts()
     .subscribe(posts => {
       this.posts = posts;
-      this.summerEvents = this.httpService.getSummerEvents(posts);
       this.summerEvents = this.filterService.getFutureSummerEvents(this.summerEvents);
       this.summerEvents = this.httpService.getDateSortedPosts(this.summerEvents);      // Sort them by date.
     });
