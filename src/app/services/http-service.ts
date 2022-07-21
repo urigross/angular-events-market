@@ -17,21 +17,21 @@ export class HttpService {
   //postsUrl ='https://api.npoint.io/1a46d5f836f7d9744e15';
 
 
-  getPosts(): Observable<Post[]> {
-    return this.http.get<Post[]>(this.postsUrl)
-      .pipe(
-        catchError(this._handleError<Post[]>('getPosts', []))
-      );
-  }
-  private _handleError<T>(operation = 'operation', result?: T) {
-    return (error: any): Observable<T> => {
-      console.log(`${operation} failed: ${error.message}`);
-      return of(result as T);
-    }
-  }
+  // getPosts(): Observable<Post[]> {
+  //   return this.http.get<Post[]>(this.postsUrl)
+  //     .pipe(
+  //       catchError(this._handleError<Post[]>('getPosts', []))
+  //     );
+  // }
+  // private _handleError<T>(operation = 'operation', result?: T) {
+  //   return (error: any): Observable<T> => {
+  //     console.log(`${operation} failed: ${error.message}`);
+  //     return of(result as T);
+  //   }
+  // }
 
   //Http Client get method
-public getPosts2(): Observable<any> {
+public getPosts(): Observable<any> {
   return this.http.get<any>(this.postsUrl);
 }
   getSummerEvents(posts:Post[]):SummerEvent[]{
