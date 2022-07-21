@@ -5,13 +5,13 @@ import { DonateComponent } from '../pages/donate/donate.component';
 import { EventsHomeComponent } from '../pages/events-home/events-home.component';
 
 const routes: Routes = [
+  {path:'', component: EventsHomeComponent},
   { path: 'about', component: AboutComponent},
   { path: 'donate', component: DonateComponent},
-  {path:'', component: EventsHomeComponent},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
