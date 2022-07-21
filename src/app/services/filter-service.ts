@@ -5,16 +5,16 @@ import { SummerEvent } from '../models/summerEvent.model';
   providedIn: 'root'
 })
 export class FilterService {
-  getFutureSummerEvents(summerEvents:SummerEvent[]):SummerEvent[]{
+  getFutureSummerEvents(summerEvents: SummerEvent[]): SummerEvent[] {
     var filteredSummerEvents: SummerEvent[] = structuredClone(summerEvents);
-    filteredSummerEvents = filteredSummerEvents.filter(summerEvent=>summerEvent.dateWithTime > this._getstartFilteringDate() );
+    filteredSummerEvents = filteredSummerEvents.filter(summerEvent => summerEvent.dateWithTime > this._getstartFilteringDate());
     return filteredSummerEvents;
   }
-  private _getstartFilteringDate():Date{
-    var startFilteringDate: Date = new Date;
-    startFilteringDate.setDate(startFilteringDate.getDate());
-    startFilteringDate.setHours(0);
-    startFilteringDate.setMinutes(0);
-    return startFilteringDate;
+
+  private _getstartFilteringDate(): Date {
+    var startDate: Date = new Date;
+    startDate.setDate(startDate.getDate());
+    startDate.setHours(0, 0, 0, 0);
+    return startDate;
   }
 }

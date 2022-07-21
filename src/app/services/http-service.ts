@@ -13,7 +13,8 @@ export class HttpService {
 
   constructor(private http: HttpClient) { }
 
-  postsUrl ='https://api.npoint.io/1a46d5f836f7d9744e15';
+  postsUrl ='https://62d021b51cc14f8c08850b9c.mockapi.io/events';
+  //postsUrl ='https://api.npoint.io/1a46d5f836f7d9744e15';
 
 
   getPosts(): Observable<Post[]> {
@@ -28,10 +29,16 @@ export class HttpService {
       return of(result as T);
     }
   }
+
+  //Http Client get method
+public getPosts2(): Observable<any> {
+  return this.http.get<any>(this.postsUrl);
+}
   getSummerEvents(posts:Post[]):SummerEvent[]{
     var eventsToReturn: SummerEvent[]=[];
     posts.forEach(({date, city,day,startHour,activityType,category, details, url}) => {
-      var dateStr = `${date}, ${startHour}`;
+      var dateStr = `${date}T${startHour}:00`;
+      console.log(dateStr)
       var summerEvent: SummerEvent = {
         dateWithTime:new Date(dateStr),
         day,
