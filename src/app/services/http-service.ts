@@ -13,7 +13,7 @@ export class HttpService {
 
   constructor(private http: HttpClient) { }
 
-  postsUrl ='https://api.npoint.io/1a46d5f836f7d9744e15';
+  postsUrl ='https://free-il.com/ext/events.json';
 
   getPosts(): Observable<Post[]> {
     return this.http.get<Post[]>(this.postsUrl)
