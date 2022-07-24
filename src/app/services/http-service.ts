@@ -36,7 +36,6 @@ public getPosts2(): Observable<any> {
     var eventsToReturn: SummerEvent[]=[];
     posts.forEach(({date, city,day,startHour,activityType,category, details, url}) => {
       var dateStr = `${date}T${startHour}:00`;
-      console.log(dateStr)
       var summerEvent: SummerEvent = {
         dateWithTime:new Date(dateStr),
         day,
